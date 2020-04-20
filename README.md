@@ -4,6 +4,9 @@
     git clone https://github.com/msj905/zabbix-docker.git
 	
    cd /zabbix-docker/Dockerfile/zabbix-db-mariadb
+   
    docker build -t zabbix-db .
+   
   cd /zabbix-docker/Dockerfile/zabbix-xxl
+  
   docker build -t zabbix .# zabbix-docker
